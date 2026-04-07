@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 200" width="100%" style="max-width: 680px;">
+  <defs>
+    <linearGradient id="elegantGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f5d6dc"/>
+      <stop offset="25%" stop-color="#f0c4cc"/>
+      <stop offset="50%" stop-color="#e8b0bc"/>
+      <stop offset="75%" stop-color="#dba0ac"/>
+      <stop offset="100%" stop-color="#c9909c"/>
+    </linearGradient>
+    <filter id="subtleGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <circle cx="50" cy="45" r="1.5" fill="#f0c4cc" opacity="0.4"/>
+  <circle cx="620" cy="55" r="1.2" fill="#f5d6dc" opacity="0.35"/>
+  <circle cx="35" cy="150" r="1" fill="#e8b0bc" opacity="0.3"/>
+  <circle cx="645" cy="140" r="1.5" fill="#f0c4cc" opacity="0.35"/>
+  <circle cx="150" cy="30" r="1" fill="#f5d6dc" opacity="0.45"/>
+  <circle cx="530" cy="175" r="1" fill="#e8b0bc" opacity="0.3"/>
+  
+  <g filter="url(#subtleGlow)">
+    <text x="125" y="82" font-family="'KaiTi', 'STKaiti', 'AR PL KaitiM GB', cursive, serif" font-size="54" text-anchor="middle" fill="url(#elegantGrad)">
+      姫野
+    </text>
+    <text x="340" y="82" font-family="'Palatino Linotype', 'Palatino', Georgia, serif" font-size="28" font-style="italic" font-weight="500" text-anchor="middle" fill="url(#elegantGrad)" letter-spacing="10">
+      HIMENO MAIA
+    </text>
+    <text x="555" y="82" font-family="'KaiTi', 'STKaiti', 'AR PL KaitiM GB', cursive, serif" font-size="54" text-anchor="middle" fill="url(#elegantGrad)">
+      舞亜
+    </text>
+  </g>
+  
+  <g transform="translate(340, 108)">
+    <path d="M -160 0 Q -120 0 -80 -3 Q -50 -5 -20 0" stroke="url(#elegantGrad)" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+    <circle cx="-12" cy="0" r="2" fill="#e8b0bc"/>
+    <g transform="rotate(45)">
+      <rect x="-4.5" y="-4.5" width="9" height="9" fill="#dba0ac"/>
+    </g>
+    <circle cx="12" cy="0" r="2" fill="#e8b0bc"/>
+    <path d="M 20 0 Q 50 -5 80 -3 Q 120 0 160 0" stroke="url(#elegantGrad)" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+  </g>
+  
+  <text x="340" y="145" font-family="'Palatino Linotype', 'Palatino', Georgia, serif" font-size="10.5" font-style="italic" text-anchor="middle" fill="#c9909c" letter-spacing="6" opacity="0.8">
+    ✦  ELEGANCE &amp; DREAMS  ✦
+  </text>
+</svg>
