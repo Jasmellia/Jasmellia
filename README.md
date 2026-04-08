@@ -1,5 +1,5 @@
 ## Hi there 👋
-<img src="https://raw.githubusercontent.com/Jasmellia/Jasmellia/main/images/HMlogo.svg" alt="mylogo" width="80%">
+<img src="https://raw.githubusercontent.com/Jasmellia/Jasmellia/main/images/HMlogo.svg" alt="mylogo" width="60%">
 <!--
 **Jasmellia/Jasmellia** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
